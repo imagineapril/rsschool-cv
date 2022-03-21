@@ -8,7 +8,7 @@
 
 # About myself
 
-I like travelling and reading. My goal is to get a job as js-developer for helping people do beautiful things on the web. I've worked as a teacher for German and English for 3 years. Now I have a remote job (making websites on Wordpress and Tilda).
+I like travelling and reading. My goal is to get a job as a js-developer for helping people do beautiful things on the web. I've worked as a teacher for German and English for 3 years. Now I have a remote job (making websites on Wordpress and Tilda).
 
 # Skills
 
