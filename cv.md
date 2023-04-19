@@ -40,7 +40,7 @@ Project manager
 
 ## Education:
 
-- Java at Innopolis IT-ckourses
+- Java at Innopolis IT-courses
 - HTML on CodeBasics
 - CSS on CodeBasics
 - JavaScript on CodeBasics
