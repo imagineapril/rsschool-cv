@@ -14,52 +14,81 @@
     <header>
         <div>
           <nav>
-            <ul>
-              <li>About myself</li>
-              <li>Contacts</li>
-              <li>Skills</li>
-              <li>Code</li>
-              <li>Projects</li>
-              <li>Education</li>
+            <ul class="nav-list">
+              <li><a href="#aboutmyself">About myself</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Education</a></li>
             </ul>
           </nav>
         </div>
     </header>
     <main>
-        <div>
-          <h1>Iuliia Timokhina</h1>
-          <h2>About myself</h2>
+        <div class="columns-2">
+          <div class="narrow-column">
+            <div><img src="/rsschool-cv/assets/img/me1.jpg" alt="photo" class="photo">
+            </div>
+            <h1>Iuliia Timokhina</h1>
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+              <li>julia.timokhina604@gmail.com</li>
+              <li>+7 (917) 249-44-57</li>
+              <li>telegram: @imagineapril</li>
+            </ul>
+            <h2 id="skills">Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript Basics</li>
+            </ul>
+          </div>
+          <div class="width-column">
+           <h2 id="aboutmyself">About myself</h2>
           <p>I'm on my way to becoming a web-developer.</p>
-          <h2>Contacts</h2>
+          <h2 id="code">Code</h2>
+          <code>
+            <pre>
+                function getAverage(arr) {
+                  return +arr
+                  .reduce(function (acc, item, index) {
+                  const sum = acc + item;
+                  if (index === arr.length - 1) {
+                    return sum / arr.length;
+                  }
+                  return sum;
+                  }, 0)
+                  .toFixed(2);
+                }
+            </pre>
+          </code>
+          <h2 id="projects">Projects</h2>
           <ul>
-            <li>julia.timokhina604@gmail.com</li>
-            <li>+7 (917) 249-44-57</li>
-            <li>telegram: @imagineapril</li>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/imagineapril-JSFEPRESCHOOL2023Q2/library/" target="_blank">Library</a>
+            </li>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/imagineapril-JSFE2023Q4/coffee-house/" target="_blank">Coffee House</a>
+            </li>
           </ul>
-          <h2>Skills</h2>
+          <h2 id="education">Education</h2>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript Basics</li>
+            <li>Kazan Federal University - German and English Teacher</li>
+            <li>Kazan National Research Technical University - Information Security Specialist</li>
+            <li>Innopolis University - Java Course</li>
+            <li>German - C1</li>
+            <li>English - B1</li>
           </ul>
-          <h2>Code</h2>
-          <h2>Projects</h2>
-          <ul>
-            <li>Library</li>
-            <li>Coffee Shop</li>
-          </ul>
-          <h2>Education</h2>
-          <ul>
-            <li>Kazan Federal University</li>
-            <li>Kazan National Research Technical University</li>
-          </ul>
-          <!-- <img src="/rsschool-cv/assets/img/me.jpg"> -->
+          </div>
         </div>
     </main>
     <footer>
-        <ul>
-            <li>github</li>
-            <li>rs school</li>
+        <ul class="nav-list">
+            <li><a href="https://github.com/imagineapril" target="_blank"><img src="/rsschool-cv/assets/img/github-mark.png" alt="github-logo" width="32" height="32"></a></li>
+            <li>2024</li>
+            <li><a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="/rsschool-cv/assets/img/rs-logo.svg" alt="rsschool-logo" width="86" height="32"></a>
+            </li>
         </ul>
     </footer>
 </body>
