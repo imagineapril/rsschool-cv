@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
@@ -21,6 +24,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #E7EAEF;
+  padding: 20px;
 }
 
 .columns-2 {
@@ -44,14 +48,8 @@ body {
     align-items: flex-start;
     padding: 40px;
 }
-/* .container {
-  max-width: 1440px;
-  margin: 0 auto;
-} */
 
 .narrow-column  {
-    /* max-width: 33%; */
-    /* flex-grow: 1; */
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -63,4 +61,15 @@ body {
 .photo  {
     border-radius: 500px;
     width: 33%;
+}
+
+.nav-link {
+  transition: 0.3s;
+  color: #f8a500;;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: black;
 }
